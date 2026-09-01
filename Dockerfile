@@ -4,7 +4,7 @@ FROM alpine:latest
 WORKDIR /app
 
 # Copy your yml file into the image
-COPY your-config.yml /app/your-config.yml
+COPY docker-compose.yml /app/docker-compose.yml
 
 # Optional: Set a default command to inspect or output the file
 CMD ["cat", "/app/your-config.yml"]
