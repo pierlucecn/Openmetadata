@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/my-config-container:latest
+          tags: ghcr.io/pierlucecn/openmetadata/omd:latest
